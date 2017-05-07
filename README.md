@@ -51,28 +51,28 @@ Upon registration your listener will be notified with a `ResultCode`, use this c
 @Override
 public void onRegistrationComplete(@WatchdogResult.ResultCode int resultCode)
 {
-	Log.d("WatchDog", "Registration Result: "+ resultCode);
+    Log.d("WatchDog", "Registration Result: "+ resultCode);
 
-	if(resultCode == WatchdogResult.WATCHDOG_REGISTRATION_OK)
-	{
-		Log.d("WatchDog", "Registration Successful");
-	}
-	else if(resultCode == WatchdogResult.WATCHDOG_NOT_INSTALLED)
-	{
-		Log.d("WatchDog", "Watchdog not installed on device. Download 'Newtron Watchdog' from App Store");
-	}
-	else if(resultCode == WatchdogResult.WATCHDOG_UNREGISTERED)
-	{
-		Log.d("WatchDog", "Unregistered Successfully");
-	}
-	else if(resultCode == WatchdogResult.WATCHDOG_VERSION_MISMATCH)
-	{
-		Log.d("WatchDog", "Version mismatch. Ensure you have the latest version of Watchdog and Libraries");
-	}
-	else if(resultCode == WatchdogResult.WATCHDOG_FAILED)
-	{
-		Log.d("WatchDog", "Unrecoverable Failure.");
-	}
+    if(resultCode == WatchdogResult.WATCHDOG_REGISTRATION_OK)
+    {
+	 Log.d("WatchDog", "Registration Successful");
+    }
+    else if(resultCode == WatchdogResult.WATCHDOG_NOT_INSTALLED)
+    {
+	 Log.d("WatchDog", "Watchdog not installed on device. Download 'Newtron Watchdog' from App Store");
+    }
+    else if(resultCode == WatchdogResult.WATCHDOG_UNREGISTERED)
+    {
+ 	 Log.d("WatchDog", "Unregistered Successfully");
+    }
+    else if(resultCode == WatchdogResult.WATCHDOG_VERSION_MISMATCH)
+    {
+	Log.d("WatchDog", "Version mismatch. Ensure you have the latest version of Watchdog and Libraries");
+    }
+    else if(resultCode == WatchdogResult.WATCHDOG_FAILED)
+    {
+	Log.d("WatchDog", "Unrecoverable Failure.");
+    }
 }
 ```
 
