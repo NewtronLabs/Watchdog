@@ -23,7 +23,7 @@ Include the below dependencies in your `build.gradle` project.
 allprojects {
     repositories {
         jcenter()
-         maven { url "http://code.newtronlabs.com:8081/artifactory/libs-release-local" }
+        maven { url "http://code.newtronlabs.com:8081/artifactory/libs-release-local" }
     }
 }
 ```
