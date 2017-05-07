@@ -63,7 +63,8 @@ public void onRegistrationComplete(@WatchdogResult.ResultCode int resultCode)
     }
     else if(resultCode == WatchdogResult.WATCHDOG_NOT_INSTALLED)
     {
-	 Log.d("WatchDog", "Watchdog not installed on device. Download 'Newtron Watchdog' from App Store");
+	 Log.d("WatchDog", "Watchdog not installed on device." 
+	     + "Download 'Newtron Watchdog' from App Store");
     }
     else if(resultCode == WatchdogResult.WATCHDOG_UNREGISTERED)
     {
@@ -71,7 +72,8 @@ public void onRegistrationComplete(@WatchdogResult.ResultCode int resultCode)
     }
     else if(resultCode == WatchdogResult.WATCHDOG_VERSION_MISMATCH)
     {
-	Log.d("WatchDog", "Version mismatch. Ensure you have the latest version of Watchdog and Libraries");
+	Log.d("WatchDog", "Version mismatch." 
+	    + "Ensure you have the latest version of Watchdog and Libraries");
     }
     else if(resultCode == WatchdogResult.WATCHDOG_FAILED)
     {
