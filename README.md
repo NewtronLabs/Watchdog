@@ -2,6 +2,10 @@
 
 Newtron Watchdog allows the critical applications you develop for Android to keep running even after an application crash. 
 
+<p align="center">
+  <img src="https://github.com/NewtronLabs/IpcEventBus/blob/master/Diagram.png" width="56%" height="56%" >
+</p>
+
 ---
 
 ## How to Use 
