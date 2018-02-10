@@ -1,3 +1,7 @@
+Please take a few minutes and let us know how we are doing by filling out this survey: https://goo.gl/forms/97TYeG6Wx5CA4lBV2
+
+---
+
 # Watchdog
 
 Newtron Watchdog allows the critical applications you develop for Android to keep running even after an application crash. 
